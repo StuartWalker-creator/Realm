@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+  body{
+    background-color: darkgray;
+    margin:0;
+  }
+  .profile-details{
+    display:flex;
+    position:sticky;
+    top:0px;
+    
+    background-color: black;
+  }
+  .profile-pic{
+    width:80px;
+    border-radius:50%;
+  }
+  .profile{
+    align-self:center;
+  }
+  .profile-name{
+    color:green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  .profile-num{
+    color:rgba(233,195,14,0.8);
+  }
+  .hr1{
+    opacity:1;
+    border:1px solid yellow;
+  }
+  .hr2{
+    border:1px solid blue
+  }
+  .myart{
+    margin-left:130px;
+    color:lightyellow;
+    border:2px solid green;
+    width:80px;
+    border-radius:3px;
+    background: linear-gradient(tomato,blue)
+  }
+  .myArtDisplay{
+    display:grid;
+    grid-template-columns: 2fr 2fr ;
+    row-gap: 10px;
+    column-gap:7px;
+   
+  }
+  .myArtDisplay img {
+    width:98%;
+    height:200px;
+    box-shadow: 3px 4px 2px lightgray;
+    border-radius:5px;
+  
+  }
+  .firstnav{
+    height:65px;
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+    background-color:black;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+footer{
+  margin-bottom:0px;
+  position:sticky;
+  bottom:0;
+}
+</style>
+<body>
+
+<div class="profile-details">
+<img class="profile-pic" src="images/album.jpeg" alt=""> 
+<div class="profile">
+  <div class="profile-name">
+    STUART WALKER
+  </div>
+  <div class="profile-num">
+    0756675433
+  </div>
+</div>
+  
+</div>
+<hr class="hr1">
+<hr class="hr2">
+<br>
+
+ <h3 class="myart">My Art 🎨</h3>
+ 
+ <div class="myArtDisplay">
+   <img src="images/mus.JPG" alt="">
+   <img src="images/album1.jpg" alt="">
+   <img src="images/album2.jpg" alt="">
+   <img src="images/hand.jpg" alt="">
+ </div>
+ <footer>
+        <nav>
+      <ul class="firstnav">
+        <li ><a href="upload.html">Upload</a></li>
+        <li><a href="albums.html">Settings</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>

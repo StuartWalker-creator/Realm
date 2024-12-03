@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+   body{
+     background-color: dimgray;
+     margin:0px;
+   }
+
+  .nav{
+    color:red;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+  }
+  ul li a{
+    text-decoration-line: none
+  }
+  .first{
+    position:relative;
+    margin-left:60px;
+    color: mediumorchid;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+  }
+  .intro{
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  .homepic{
+    transform: rotate(271deg);
+    margin-top:25px;
+    margin-left:25px;
+    margin-bottom:15px;
+    width:80%;
+    border-bottom-right-radius:20px;
+    border-top-left-radius: 20px;
+    box-shadow: 3px 4px 6px lightgreen;
+  }
+  .news{
+    color: mediumslateblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+  }
+  .email{
+   height:30px;
+   border-radius:5px;
+   border:none;
+   background-color:lightcyan;
+  }
+  .accbtn{
+    color:blue;
+    border:none;
+    padding:4px;
+    margin:4px;
+    border-radius:3px;
+  }
+  .firstnav{
+    height:65px;
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+    background-color:black;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+footer{
+  margin-bottom:0px;
+  position:sticky;
+  bottom:0;
+}
+.realm{
+
+  padding-right:10px;
+  position:absolute;
+  margin-top: -10px;
+  margin-left:-60px;
+  border-radius: 50%;
+  height:65px;
+  width:65px;
+
+}
+.home{
+  width:25px;
+}
+</style>
+
+<body>
+  
+  
+  <header>
+    <nav>
+      <ul class="nav">
+        <li ><a href="myweb.html">Home</a></li>
+        <li><a href="albums.html">albums</a></li>
+        <li><a href="contacts.html">contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <hr>
+
+  <h1 class="first">  <img class="realm"src="images/realm.jpeg" alt="realm.jpeg">EALM ART</h1>
+  <p class="intro">Welcome to our home of true art, Realm art provides you with the best art ever and you can get any art piece at relevant prices.At <mark>Realm art </mark> you can all art pieces  for Home interior desgn, for selling,  For  pleasure and for any personal aspect. Come and witness the talent of Art worldwide using a brush and a pencil.Thank you!</p>
+  
+  <img class="homepic" src="images/hand.jpg"alt="">
+  
+  <h2 class="news">Welcome to our newsletter</h2>
+  <input class="email" placeholder="Enter Email..>" type="email"><br>
+  <button class="accbtn">submit</button><br><br>
+  
+  <footer>
+        <nav>
+      <ul class="firstnav">
+        <li ><a href="upload.html">Upload</a></li>
+        <li><a href="albums.html">Settings</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </footer>
+  
+</script>
+</body>
+
+</html>

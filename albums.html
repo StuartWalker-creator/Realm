@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+  body{
+    background-image:url(images/album.jpeg);
+    background-size:cover;
+   margin:0px;
+  }
+    .nav{
+    color:red;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+  }
+    ul li a{
+    text-decoration-line: none
+  }
+  .photos{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap:10px;
+    row-gap:10px;
+  }
+  .photos img{
+    width:170px;
+    height:230px;
+    box-shadow: 2px 3px 5px mediumaquamarine;
+  } 
+  .photo-contact{
+    color:red;
+    font-weight:bold;
+  }
+  .firstnav{
+    height:65px;
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+    background-color:black;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+footer{
+  margin-bottom:0px;
+  position:sticky;
+  bottom:0;
+}
+</style>
+<body>
+   <header>
+    <nav>
+      <ul class="nav">
+        <li ><a href="myweb.html">Home</a></li>
+        <li><a href="albums.html">albums</a></li>
+        <li><a href="contacts.html">contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+ <hr>
+  
+ <div class="photos"> </div>
+ 
+ <footer>
+        <nav>
+      <ul class="firstnav">
+        <li ><a href="upload.html">Upload</a></li>
+        <li><a href="albums.html">Settings</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+ <script type="module" src="scripts/album.js"></script>
+</body>
+
+</html>
