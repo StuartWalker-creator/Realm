@@ -1,13 +1,13 @@
 export const albums = [{
-  image:'images/album1.jpg',
+  image:'album1.jpg',
   contact:'07528890'
 },
 {
-  image:'images/album2.jpg',
+  image:'album2.jpg',
   contact:'0756675433'
 },
 {
-  image:'images/mus.JPG',
+  image:'mus.JPG',
   contact:'0774953786'
 }
  ]
